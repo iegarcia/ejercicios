@@ -1,2 +1,2 @@
 # ejercicios
-Ejercicios de entrevistas laborales pasadas
+A lo largo de la búsqueda laboral que actualmente sigo teniendo activa decidí buscarle el lado bueno y de aprendizaje, ya que muchas de las entrevistas me dieron ciertos ejercicios técnicos para "probar mi valía" y lamentablemente no los pude superar, por lo que quise retomarlos para ver si puedo hacerlos con más calma y aprender o recordar maneras de resolver ciertas problemáticas. Los mismos voy a ir subiéndo a este repositorio.
