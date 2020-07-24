@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Test Landing HTML</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="full_fondo">
+        <div class="container">
+          <nav class="navbar navbar-light">
+            <a class="navbar-brand logo" href="#">AppSon</a>
+          </nav>
+          <div class="row user">
+            <div class="col-sm-3 col-md-5">
+              <p class="title">Best Desktop App for you</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Explicabo quae aperiam repellat, illo quas dolor quam eveniet
+                corrupti quibusdam. Ea vitae nisi, excepturi modi debitis nulla
+                at tenetur dicta nam.
+              </p>
+              <br />
+              <input
+                class="email"
+                type="email"
+                name="email"
+                placeholder="Enter your mail to Download"
+              />
+              <input class="button" type="button" value="Download" />
+            </div>
+            <div class="col-sm-3 col-md-7 d-flex">
+              <img src="img/add-user.svg" alt="add-user" />
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row messages">
+          <div class="col-sm-3 col-md-6 d-flex">
+            <img src="img/messages1.svg" alt="messages1" />
+          </div>
+          <div class="col-sm-3 col-md-5">
+            <p class="sub-title">Easy Messaging</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              excepturi unde similique mollitia. Necessitatibus consectetur
+              placeat ut similique alias delectus cumque vel et incidunt atque
+              quis voluptas tempora, recusandae magnam.
+            </p>
+            <a href="#">Read More <i class="fas fa-arrow-right fa-sm"></i></a>
+          </div>
+        </div>
+        <div class="row loading">
+          <div class="col-sm-3 col-md-5">
+            <p class="sub-title">Fast Loading</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              eius minima est, possimus repellendus cumque dolor placeat
+              nesciunt commodi, delectus, deleniti aut ut. Magnam vero error
+              placeat dolorum dolores. Aut!
+            </p>
+            <a href="#">Read More <i class="fas fa-arrow-right fa-sm"></i></a>
+          </div>
+          <div class="col-sm-3 col-md-6 d-flex">
+            <img src="img/fast-loading.svg" alt="fast-loading" />
+          </div>
+        </div>
+      </div>
+      <div class="full_fondo">
+        <div class="container sc_shots">
+          <p class="sub-title">Screenshots</p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            sunt voluptatibus facilis saepe ducimus ipsum dolores quam deserunt,
+            illum quod, natus hic ab cumque inventore nihil non vero officia
+            numquam.
+          </p>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <br />
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-center">
+                  <div class="col-md-3">
+                    <img
+                      src="img/image1.png"
+                      class="d-line w-100"
+                      alt="image1"
+                    />
+                  </div>
+                  <div class="col-md-3">
+                    <img
+                      src="img/image2.png"
+                      class="d-line w-100"
+                      alt="image2"
+                    />
+                  </div>
+                  <div class="col-md-3">
+                    <img
+                      src="img/image3.png"
+                      class="d-line w-100"
+                      alt="image3"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-md-3">
+                    <img
+                      src="img/image4.png"
+                      class="d-block w-100"
+                      alt="image4"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-md-3">
+                    <img
+                      src="img/image5.png"
+                      class="d-block w-100"
+                      alt="image5"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container">
+        <p>
+          <i class="far fa-copyright"></i> 2018 copyright, All Rights Reserved
+          by AppSon
+        </p>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

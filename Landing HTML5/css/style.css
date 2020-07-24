@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+/* Se aplica a la mayoria */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.full_fondo {
+  background-color: rgb(215, 232, 238);
+  max-width: 100%;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+}
+
+.sub-title {
+  font-weight: 500;
+  font-size: x-large;
+  color: black;
+}
+
+div p {
+  font-size: small;
+  color: rgb(141, 139, 139);
+}
+
+/* 1er Sector */
+.logo {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #0087ff !important;
+}
+
+div nav a:hover {
+  color: #0087ff;
+}
+
+.d-flex {
+  justify-content: center;
+}
+
+.user {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.user .email {
+  width: 70%;
+  border: solid 2px #007bff;
+  border-right: none;
+  padding: 9px;
+  border-radius: 50px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #d7e8ee;
+  text-align: left;
+}
+
+.user .button {
+  width: 30%;
+  padding: 11px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  border: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: -7px;
+}
+
+.user img {
+  width: 70%;
+}
+
+/* 2do sector */
+.messages {
+  padding-top: 8%;
+}
+
+.messages,
+.loading {
+  padding-bottom: 10%;
+}
+
+.messages img,
+.loading img {
+  width: 50%;
+}
+
+.messages a,
+.loading a {
+  font-weight: bold;
+}
+
+/* 3er sector */
+.sc_shots {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.carousel {
+  height: 260px;
+}
+
+.carousel-indicators .active {
+  width: 11px;
+  background-color: #007bff;
+  align-items: center;
+}
+
+.carousel-indicators li {
+  width: 7px;
+  align-self: center;
+  background-color: rgb(167, 164, 164);
+  padding: 2px;
+  border-radius: 43%;
+}
+
+.carousel-item img {
+  height: 70%;
+  box-shadow: 3px 3px 9px 1px rgba(125, 125, 125, 0.52),
+    2px 2px 9px 1px rgba(125, 125, 125, 0.42);
+}
