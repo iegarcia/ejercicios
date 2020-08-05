@@ -38,12 +38,24 @@
             https://reqres.in/api/users <br />
             <strong>
               Mostrar las imagenes de usuarios de una página dada por parámetro
-              desde el front. </strong
-            ><br />
+              desde el front.
+            </strong>
+            <br />
             Ejemplo: El usuario final ingresa "2" --> se debe consultar
             "https://reqres.in/api/users?page=2"
           </p>
-          <div class="alert-success text-center" id="ej2"></div>
+          <div id="ej2"></div>
+          <br />
+          <p>Introduzca numero de pagina (entre 1 y 2)</p>
+          <input type="text" id="text" />
+          <button
+            id="btn"
+            class="btn btn-primary"
+            onclick="capturar()"
+            type="submit"
+          >
+            Enviar
+          </button>
         </div>
       </div>
     </div>
